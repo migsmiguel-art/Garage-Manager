@@ -20,6 +20,16 @@ namespace Garage_Manager
         private void AddVehicleBtn_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Test adding vehicle");
-        }
+            AddVehicleForm frmInput = new AddVehicleForm();
+
+            using (frmInput)
+            {
+                DialogResult result = frmInput.ShowDialog();
+
+                // see if input form was cancelled
+                if (result == DialogResult.Cancel)
+                    return;
+            }
+         }
     }
 }
