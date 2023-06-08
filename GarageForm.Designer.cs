@@ -41,6 +41,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.AddVehicleBtn = new System.Windows.Forms.Button();
             this.RemoveVehicleBtn = new System.Windows.Forms.Button();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -178,12 +179,24 @@
             this.RemoveVehicleBtn.TabIndex = 4;
             this.RemoveVehicleBtn.Text = "Remove Vehicle";
             this.RemoveVehicleBtn.UseVisualStyleBackColor = true;
+            this.RemoveVehicleBtn.Click += new System.EventHandler(this.RemoveVehicleBtn_Click);
+            // 
+            // listView1
+            // 
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(788, 81);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(312, 402);
+            this.listView1.TabIndex = 5;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.SmallIcon;
             // 
             // GarageForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(882, 553);
+            this.ClientSize = new System.Drawing.Size(1181, 587);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.RemoveVehicleBtn);
             this.Controls.Add(this.AddVehicleBtn);
             this.Controls.Add(this.label4);
@@ -220,6 +233,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button AddVehicleBtn;
         private System.Windows.Forms.Button RemoveVehicleBtn;
+        private System.Windows.Forms.ListView listView1;
     }
 }
 

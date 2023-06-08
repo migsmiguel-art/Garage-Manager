@@ -31,5 +31,10 @@ namespace Garage_Manager
                     return;
             }
          }
+
+        private void RemoveVehicleBtn_Click(object sender, EventArgs e)
+        {
+            listView1.Items.Add("Sample");
+        }
     }
 }
