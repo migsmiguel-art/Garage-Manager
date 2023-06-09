@@ -46,8 +46,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.OdometerTextBox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.AddVehicleButton = new System.Windows.Forms.Button();
+            this.ExitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -230,33 +230,33 @@
             this.label9.TabIndex = 12;
             this.label9.Text = "Odometer:";
             // 
-            // button1
+            // AddVehicleButton
             // 
-            this.button1.Location = new System.Drawing.Point(125, 538);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(224, 68);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Add Vehicle";
-            this.button1.UseVisualStyleBackColor = true;
+            this.AddVehicleButton.Location = new System.Drawing.Point(125, 538);
+            this.AddVehicleButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.AddVehicleButton.Name = "AddVehicleButton";
+            this.AddVehicleButton.Size = new System.Drawing.Size(224, 68);
+            this.AddVehicleButton.TabIndex = 18;
+            this.AddVehicleButton.Text = "Add Vehicle";
+            this.AddVehicleButton.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // ExitButton
             // 
-            this.button2.Location = new System.Drawing.Point(597, 538);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(224, 68);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "Exit";
-            this.button2.UseVisualStyleBackColor = true;
+            this.ExitButton.Location = new System.Drawing.Point(597, 538);
+            this.ExitButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(224, 68);
+            this.ExitButton.TabIndex = 19;
+            this.ExitButton.Text = "Exit";
+            this.ExitButton.UseVisualStyleBackColor = true;
             // 
             // AddVehicleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 665);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ExitButton);
+            this.Controls.Add(this.AddVehicleButton);
             this.Controls.Add(this.VINTextBox);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.PlateTextBox);
@@ -304,7 +304,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox OdometerTextBox;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button AddVehicleButton;
+        private System.Windows.Forms.Button ExitButton;
     }
 }
