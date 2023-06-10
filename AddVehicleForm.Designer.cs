@@ -57,7 +57,7 @@
             this.label1.Location = new System.Drawing.Point(48, 90);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 25);
+            this.label1.Size = new System.Drawing.Size(134, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nickname:";
             // 
@@ -67,7 +67,7 @@
             this.NicknameTextBox.Location = new System.Drawing.Point(335, 85);
             this.NicknameTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.NicknameTextBox.Name = "NicknameTextBox";
-            this.NicknameTextBox.Size = new System.Drawing.Size(214, 30);
+            this.NicknameTextBox.Size = new System.Drawing.Size(214, 36);
             this.NicknameTextBox.TabIndex = 1;
             // 
             // TypeTextBox
@@ -76,7 +76,7 @@
             this.TypeTextBox.Location = new System.Drawing.Point(335, 130);
             this.TypeTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TypeTextBox.Name = "TypeTextBox";
-            this.TypeTextBox.Size = new System.Drawing.Size(214, 30);
+            this.TypeTextBox.Size = new System.Drawing.Size(214, 36);
             this.TypeTextBox.TabIndex = 3;
             // 
             // label2
@@ -86,7 +86,7 @@
             this.label2.Location = new System.Drawing.Point(48, 135);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 25);
+            this.label2.Size = new System.Drawing.Size(76, 29);
             this.label2.TabIndex = 2;
             this.label2.Text = "Type:";
             // 
@@ -96,7 +96,7 @@
             this.YearTextBox.Location = new System.Drawing.Point(335, 174);
             this.YearTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.YearTextBox.Name = "YearTextBox";
-            this.YearTextBox.Size = new System.Drawing.Size(214, 30);
+            this.YearTextBox.Size = new System.Drawing.Size(214, 36);
             this.YearTextBox.TabIndex = 5;
             // 
             // label3
@@ -106,7 +106,7 @@
             this.label3.Location = new System.Drawing.Point(48, 179);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 25);
+            this.label3.Size = new System.Drawing.Size(72, 29);
             this.label3.TabIndex = 4;
             this.label3.Text = "Year:";
             // 
@@ -116,7 +116,7 @@
             this.TrimTextBox.Location = new System.Drawing.Point(335, 308);
             this.TrimTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TrimTextBox.Name = "TrimTextBox";
-            this.TrimTextBox.Size = new System.Drawing.Size(214, 30);
+            this.TrimTextBox.Size = new System.Drawing.Size(214, 36);
             this.TrimTextBox.TabIndex = 11;
             // 
             // label4
@@ -126,7 +126,7 @@
             this.label4.Location = new System.Drawing.Point(48, 313);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 25);
+            this.label4.Size = new System.Drawing.Size(71, 29);
             this.label4.TabIndex = 10;
             this.label4.Text = "Trim:";
             // 
@@ -136,7 +136,7 @@
             this.ModelTextBox.Location = new System.Drawing.Point(335, 264);
             this.ModelTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ModelTextBox.Name = "ModelTextBox";
-            this.ModelTextBox.Size = new System.Drawing.Size(214, 30);
+            this.ModelTextBox.Size = new System.Drawing.Size(214, 36);
             this.ModelTextBox.TabIndex = 9;
             // 
             // label5
@@ -146,7 +146,7 @@
             this.label5.Location = new System.Drawing.Point(48, 269);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 25);
+            this.label5.Size = new System.Drawing.Size(89, 29);
             this.label5.TabIndex = 8;
             this.label5.Text = "Model:";
             // 
@@ -156,7 +156,7 @@
             this.MakeTextBox.Location = new System.Drawing.Point(335, 219);
             this.MakeTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MakeTextBox.Name = "MakeTextBox";
-            this.MakeTextBox.Size = new System.Drawing.Size(214, 30);
+            this.MakeTextBox.Size = new System.Drawing.Size(214, 36);
             this.MakeTextBox.TabIndex = 7;
             // 
             // label6
@@ -166,7 +166,7 @@
             this.label6.Location = new System.Drawing.Point(48, 224);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 25);
+            this.label6.Size = new System.Drawing.Size(82, 29);
             this.label6.TabIndex = 6;
             this.label6.Text = "Make:";
             // 
@@ -176,7 +176,7 @@
             this.VINTextBox.Location = new System.Drawing.Point(335, 443);
             this.VINTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.VINTextBox.Name = "VINTextBox";
-            this.VINTextBox.Size = new System.Drawing.Size(214, 30);
+            this.VINTextBox.Size = new System.Drawing.Size(214, 36);
             this.VINTextBox.TabIndex = 17;
             // 
             // label7
@@ -186,7 +186,7 @@
             this.label7.Location = new System.Drawing.Point(48, 448);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 25);
+            this.label7.Size = new System.Drawing.Size(61, 29);
             this.label7.TabIndex = 16;
             this.label7.Text = "VIN:";
             // 
@@ -196,7 +196,7 @@
             this.PlateTextBox.Location = new System.Drawing.Point(335, 399);
             this.PlateTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PlateTextBox.Name = "PlateTextBox";
-            this.PlateTextBox.Size = new System.Drawing.Size(214, 30);
+            this.PlateTextBox.Size = new System.Drawing.Size(214, 36);
             this.PlateTextBox.TabIndex = 15;
             // 
             // label8
@@ -206,7 +206,7 @@
             this.label8.Location = new System.Drawing.Point(48, 404);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(78, 25);
+            this.label8.Size = new System.Drawing.Size(99, 29);
             this.label8.TabIndex = 14;
             this.label8.Text = "Plate #:";
             // 
@@ -216,7 +216,7 @@
             this.OdometerTextBox.Location = new System.Drawing.Point(335, 354);
             this.OdometerTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.OdometerTextBox.Name = "OdometerTextBox";
-            this.OdometerTextBox.Size = new System.Drawing.Size(214, 30);
+            this.OdometerTextBox.Size = new System.Drawing.Size(214, 36);
             this.OdometerTextBox.TabIndex = 13;
             // 
             // label9
@@ -226,7 +226,7 @@
             this.label9.Location = new System.Drawing.Point(48, 359);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(105, 25);
+            this.label9.Size = new System.Drawing.Size(132, 29);
             this.label9.TabIndex = 12;
             this.label9.Text = "Odometer:";
             // 
@@ -252,7 +252,7 @@
             // 
             // AddVehicleForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 665);
             this.Controls.Add(this.ExitButton);
@@ -287,24 +287,24 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox NicknameTextBox;
-        private System.Windows.Forms.TextBox TypeTextBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox YearTextBox;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox TrimTextBox;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox ModelTextBox;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox MakeTextBox;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox VINTextBox;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox PlateTextBox;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox OdometerTextBox;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button AddVehicleButton;
         private System.Windows.Forms.Button ExitButton;
+        public System.Windows.Forms.TextBox NicknameTextBox;
+        public System.Windows.Forms.TextBox TypeTextBox;
+        public System.Windows.Forms.TextBox YearTextBox;
+        public System.Windows.Forms.TextBox TrimTextBox;
+        public System.Windows.Forms.TextBox ModelTextBox;
+        public System.Windows.Forms.TextBox MakeTextBox;
+        public System.Windows.Forms.TextBox VINTextBox;
+        public System.Windows.Forms.TextBox PlateTextBox;
+        public System.Windows.Forms.TextBox OdometerTextBox;
     }
 }

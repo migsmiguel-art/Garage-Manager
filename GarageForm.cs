@@ -29,12 +29,26 @@ namespace Garage_Manager
                 // see if input form was cancelled
                 if (result == DialogResult.Cancel)
                     return;
+
+                string nickname = frmInput.NicknameTextBox.Text;
+                string type = frmInput.TypeTextBox.Text;
+                int year = int.Parse(frmInput.YearTextBox.Text);
+                string make = frmInput.MakeTextBox.Text;
+                string model = frmInput.ModelTextBox.Text;
+                string trim = frmInput.TrimTextBox.Text;
+                int odometer = int.Parse(frmInput.OdometerTextBox.Text);
+                string plateNum = frmInput.PlateTextBox.Text;
+                string VIN = frmInput.VINTextBox.Text;
+
+                Vehicle veh = new Vehicle(nickname, type, year, make, model, trim, odometer, plateNum, VIN);
+                Console.WriteLine(veh.ToString());
+        // END SAMPLE
             }
          }
 
         private void RemoveVehicleBtn_Click(object sender, EventArgs e)
         {
-            listView1.Items.Add("Sample");
+            MainListBox.Items.Add("Sample");
         }
     }
 }
