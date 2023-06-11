@@ -239,6 +239,7 @@
             this.AddVehicleButton.TabIndex = 18;
             this.AddVehicleButton.Text = "Add Vehicle";
             this.AddVehicleButton.UseVisualStyleBackColor = true;
+            this.AddVehicleButton.Click += new System.EventHandler(this.AddVehicleButton_Click);
             // 
             // ExitButton
             // 

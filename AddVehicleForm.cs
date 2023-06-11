@@ -17,6 +17,9 @@ namespace Garage_Manager
             InitializeComponent();
         }
 
-        
+        private void AddVehicleButton_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("Testing BUTTON");
+        }
     }
 }
