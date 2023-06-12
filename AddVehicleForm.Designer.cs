@@ -250,6 +250,7 @@
             this.ExitButton.TabIndex = 19;
             this.ExitButton.Text = "Exit";
             this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // AddVehicleForm
             // 
@@ -296,7 +297,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button AddVehicleButton;
         private System.Windows.Forms.Button ExitButton;
         public System.Windows.Forms.TextBox NicknameTextBox;
         public System.Windows.Forms.TextBox TypeTextBox;
@@ -307,5 +307,6 @@
         public System.Windows.Forms.TextBox VINTextBox;
         public System.Windows.Forms.TextBox PlateTextBox;
         public System.Windows.Forms.TextBox OdometerTextBox;
+        public System.Windows.Forms.Button AddVehicleButton;
     }
 }

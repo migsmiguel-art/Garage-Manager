@@ -41,7 +41,10 @@ namespace Garage_Manager
                 string VIN = frmInput.VINTextBox.Text;
 
                 Vehicle veh = new Vehicle(nickname, type, year, make, model, trim, odometer, plateNum, VIN);
-                Console.WriteLine(veh.ToString());
+               Console.WriteLine(veh.ToString());
+
+             //   MainListBox.Items.Add(veh);
+
         // END SAMPLE
             }
          }
@@ -49,6 +52,11 @@ namespace Garage_Manager
         private void RemoveVehicleBtn_Click(object sender, EventArgs e)
         {
             MainListBox.Items.Add("Sample");
+        }
+
+        public void getInput()
+        {
+
         }
     }
 }

@@ -19,7 +19,18 @@ namespace Garage_Manager
 
         private void AddVehicleButton_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Testing BUTTON");
+            Console.WriteLine("Testing ADD BUTTON");
+            this.DialogResult = DialogResult.OK;
+            this.Hide();
+
+
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("Testing REMOVE BUTTON");
+            this.DialogResult = DialogResult.Cancel;
+            this.Hide();
         }
     }
 }
