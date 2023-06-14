@@ -43,7 +43,7 @@ namespace Garage_Manager
                 Vehicle veh = new Vehicle(nickname, type, year, make, model, trim, odometer, plateNum, VIN);
                Console.WriteLine(veh.ToString());
 
-             //   MainListBox.Items.Add(veh);
+                MainListBox.Items.Add(veh.ToString());
 
         // END SAMPLE
             }
