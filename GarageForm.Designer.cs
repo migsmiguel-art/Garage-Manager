@@ -41,7 +41,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.AddVehicleBtn = new System.Windows.Forms.Button();
             this.RemoveVehicleBtn = new System.Windows.Forms.Button();
-            this.MainListBox = new System.Windows.Forms.ListView();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -56,9 +56,9 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Location = new System.Drawing.Point(59, 33);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(787, 130);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -78,7 +78,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(17, 23);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(111, 92);
             this.pictureBox1.TabIndex = 0;
@@ -91,9 +91,9 @@
             this.groupBox2.Controls.Add(this.groupBox1);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(123, 100);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(920, 513);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
@@ -104,9 +104,9 @@
             this.groupBox4.Controls.Add(this.label3);
             this.groupBox4.Controls.Add(this.pictureBox3);
             this.groupBox4.Location = new System.Drawing.Point(59, 351);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox4.Size = new System.Drawing.Size(787, 130);
             this.groupBox4.TabIndex = 2;
             this.groupBox4.TabStop = false;
@@ -126,7 +126,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Location = new System.Drawing.Point(17, 23);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(111, 92);
             this.pictureBox3.TabIndex = 0;
@@ -137,9 +137,9 @@
             this.groupBox3.Controls.Add(this.label2);
             this.groupBox3.Controls.Add(this.pictureBox2);
             this.groupBox3.Location = new System.Drawing.Point(59, 187);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(787, 130);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
@@ -159,7 +159,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Location = new System.Drawing.Point(17, 23);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(111, 92);
             this.pictureBox2.TabIndex = 0;
@@ -179,7 +179,7 @@
             // AddVehicleBtn
             // 
             this.AddVehicleBtn.Location = new System.Drawing.Point(959, 11);
-            this.AddVehicleBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddVehicleBtn.Margin = new System.Windows.Forms.Padding(4);
             this.AddVehicleBtn.Name = "AddVehicleBtn";
             this.AddVehicleBtn.Size = new System.Drawing.Size(84, 69);
             this.AddVehicleBtn.TabIndex = 3;
@@ -190,7 +190,7 @@
             // RemoveVehicleBtn
             // 
             this.RemoveVehicleBtn.Location = new System.Drawing.Point(1051, 11);
-            this.RemoveVehicleBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RemoveVehicleBtn.Margin = new System.Windows.Forms.Padding(4);
             this.RemoveVehicleBtn.Name = "RemoveVehicleBtn";
             this.RemoveVehicleBtn.Size = new System.Drawing.Size(84, 69);
             this.RemoveVehicleBtn.TabIndex = 4;
@@ -198,28 +198,27 @@
             this.RemoveVehicleBtn.UseVisualStyleBackColor = true;
             this.RemoveVehicleBtn.Click += new System.EventHandler(this.RemoveVehicleBtn_Click);
             // 
-            // MainListBox
+            // listBox1
             // 
-            this.MainListBox.HideSelection = false;
-            this.MainListBox.Location = new System.Drawing.Point(1051, 100);
-            this.MainListBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.MainListBox.Name = "MainListBox";
-            this.MainListBox.Size = new System.Drawing.Size(415, 494);
-            this.MainListBox.TabIndex = 5;
-            this.MainListBox.UseCompatibleStateImageBehavior = false;
-            this.MainListBox.View = System.Windows.Forms.View.List;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(1071, 104);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(464, 260);
+            this.listBox1.TabIndex = 6;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // GarageForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1575, 722);
-            this.Controls.Add(this.MainListBox);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.RemoveVehicleBtn);
             this.Controls.Add(this.AddVehicleBtn);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.groupBox2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GarageForm";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
@@ -252,7 +251,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button AddVehicleBtn;
         private System.Windows.Forms.Button RemoveVehicleBtn;
-        public System.Windows.Forms.ListView MainListBox;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 

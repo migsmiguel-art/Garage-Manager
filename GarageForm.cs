@@ -43,7 +43,7 @@ namespace Garage_Manager
                 Vehicle veh = new Vehicle(nickname, type, year, make, model, trim, odometer, plateNum, VIN);
                Console.WriteLine(veh.ToString());
 
-                MainListBox.Items.Add(veh.ToString());
+                listBox1.Items.Add(veh.ToString());
 
         // END SAMPLE
             }
@@ -51,12 +51,34 @@ namespace Garage_Manager
 
         private void RemoveVehicleBtn_Click(object sender, EventArgs e)
         {
-            MainListBox.Items.Add("Sample");
+            //  MainListBox.Items.Add("Sample");
+            // Create a variable that holds the index of the selected employee
+            // Validate if an item is selected,
+            // If there is a selected item proceed to remove,
+            // Else Alert user to select an item from the list.
+            int currentSelection = listBox1.SelectedIndex;
+
+            if (currentSelection > -1)
+            {
+                Console.WriteLine("Removed Item from Index: " + currentSelection);
+                listBox1.Items.RemoveAt(currentSelection);
+            }
+            else
+            {
+                MessageBox.Show("Please Select a Vehicle from the List");
+            }
+
         }
 
         public void getInput()
         {
 
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+           
         }
     }
 }
