@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Garage_Manager
 {
@@ -30,20 +31,66 @@ namespace Garage_Manager
                 if (result == DialogResult.Cancel)
                     return;
 
+                string year = frmInput.YearTextBox.Text; // If the use
+
+                try
+                {
+                    int parseResult = Int32.Parse(year);
+                    Console.WriteLine(
+                       $"Result is {parseResult}.");
+                    
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(
+                       $"Cannot convert '{year}'.");
+                    MessageBox.Show(ex.Message);
+                    
+                }
+                finally
+                {
+                    Console.WriteLine("Done!");
+                }
+
+                string odometer = frmInput.YearTextBox.Text; // If the use
+
+                try
+                {
+                    int parseResult = Int32.Parse(odometer);
+                    Console.WriteLine(
+                       $"Result is {parseResult}.");
+
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(
+                       $"Cannot convert '{odometer}'.");
+                    MessageBox.Show(ex.Message);
+
+                }
+                finally
+                {
+                    Console.WriteLine("Done!");
+                }
+
                 string nickname = frmInput.NicknameTextBox.Text;
                 string type = frmInput.TypeTextBox.Text;
-                int year = int.Parse(frmInput.YearTextBox.Text);
                 string make = frmInput.MakeTextBox.Text;
                 string model = frmInput.ModelTextBox.Text;
                 string trim = frmInput.TrimTextBox.Text;
-                int odometer = int.Parse(frmInput.OdometerTextBox.Text);
                 string plateNum = frmInput.PlateTextBox.Text;
                 string VIN = frmInput.VINTextBox.Text;
 
-                Vehicle veh = new Vehicle(nickname, type, year, make, model, trim, odometer, plateNum, VIN);
-               Console.WriteLine(veh.ToString());
+             
+                    Vehicle veh = new Vehicle(nickname, type, year, make, model, trim, odometer, plateNum, VIN);
+                    Console.WriteLine(veh.ToString());
 
-                listBox1.Items.Add(veh.ToString());
+                    listBox1.Items.Add(veh.ToString());
+               
+
+               
 
         // END SAMPLE
             }
@@ -79,6 +126,11 @@ namespace Garage_Manager
         {
 
            
+        }
+
+        private void ValidateInput()
+        {
+            
         }
     }
 }

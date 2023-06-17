@@ -11,16 +11,16 @@ namespace Garage_Manager
     {
         private string nickname;
         private string type;
-        private int year;
+        private string year;
         private string make;
         private string model;
         private string trim;
-        private int odometer;
+        private string odometer;
         private string plateNum;
         private string VIN;
 
 
-        public Vehicle(string nickname, string type, int year, string make, string model, string trim, int odometer, string plateNum, string VIN)
+        public Vehicle(string nickname, string type, string year, string make, string model, string trim, string odometer, string plateNum, string VIN)
         {
             this.nickname = nickname;
             this.type = type;
@@ -36,7 +36,7 @@ namespace Garage_Manager
         public override string ToString()
         {
             // return $"firstName={firstName}, lastName={lastName}, ssn={ssn}, hireDate={hireDate.ToShortDateString()}";
-            return $"{nickname}, {year}, {make}, {model}";
+            return $"{year} {make} {model}";
 
         }
 
